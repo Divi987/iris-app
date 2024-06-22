@@ -18,6 +18,7 @@
 
 body {
   color: rgb(var(--foreground-rgb));
+  font-family: Arial, 'Microsoft Sans Serif', Verdana;
   background: linear-gradient(
       to bottom,
       transparent,
@@ -30,4 +31,13 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.TreeLinksText {
+  font-size: 100%;
+  color: #215DA6;
+  font-family: Arial, Verdana, 'Microsoft Sans Serif';
+  background-color: transparent;
+  cursor: hand;
+  text-decoration: none;
 }
