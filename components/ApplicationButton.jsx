@@ -9,7 +9,7 @@ export default function ApplicationButton(){
     return(
         <div className={style.applicationButtonBar}>
             <div className="p-px">
-                <button className={`${pathName !== '/AVATS/retrieveApplication.aspx' ? 'hidden' : 'inline-block'}`} >submit</button>
+                <button className={`${pathName !== '/AVATS/retrieveApplication.aspx' ? 'hidden' : `inline-block box-border  ${style.ApplicationButtons}`}`} >submit</button>
             </div>
         </div>
     )
