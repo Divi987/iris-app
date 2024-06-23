@@ -4,7 +4,7 @@ import style from './styles.module.css'
 
 export default function SideBar(){
     return(
-        <div className="w-1/5">
+        <div className="w-1/5 p-[5px]">
             <ul style={{ fontSize: "small"}}>
                 <li className={style.NormalRow}> <Link className="TreeLinksText" href="#"> Apply Now </Link></li>
                 <li className={style.AltTableRow}><Link className="TreeLinksText" href="/AVATS/retrieveApplication.aspx"> Retreive Application</Link></li>

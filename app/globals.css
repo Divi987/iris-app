@@ -38,6 +38,25 @@ body {
   color: #215DA6;
   font-family: Arial, Verdana, 'Microsoft Sans Serif';
   background-color: transparent;
-  cursor: hand;
+  cursor: pointer;
   text-decoration: none;
+}
+
+.TreeLinksText:hover {
+  text-decoration: underline;
+}
+
+.TreeLinkMainText {
+  font-size: 100%;
+  color: #215DA6;
+  font-family: Arial, Verdana, 'Microsoft Sans Serif';
+  background-color: transparent;
+  cursor: hand;
+  text-decoration: underline;
+}
+
+input, select {
+  padding: 1px 2px;
+  border: 1px solid #aaa;
+  border-radius: 2px;
 }

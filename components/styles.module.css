@@ -9,10 +9,62 @@
   background-color: #D6D6D6;
   font-size: 100%;
   font-family: Arial, 'Microsoft Sans Serif', Verdana;
+  width: 70%;
 }
 
 .AltTableRow {
   background-color: #ffffff;
+  font-size: 100%;
+  font-family: Arial, 'Microsoft Sans Serif', Verdana;
+  width: 70%;
+}
+
+.MainHeadersText {
+  font-weight: bolder;
+  font-size: 120%;
+  text-transform: capitalize;
+  color: #073566;
+  font-family: Arial, Verdana, 'Microsoft Sans Serif';
+}
+
+.ApplicationButtons {
+  font-size: small;
+  text-transform: capitalize;
+  color: black;
+  font-family: Arial, 'Microsoft Sans Serif', Verdana;
+  background-color: #8ea7a4;
+  font-weight: bold;
+  padding: 1px 4px;
+  margin: 3px 5px;
+  border-style: inset;
+}
+
+.ApplicationNote {
+  font-weight: bold;
+  font-size: 80%;
+  color: #0033ff;
+  font-family: Arial, 'Microsoft Sans Serif', Verdana;
+}
+
+.ApplicationClientErrorText {
+  font-weight: bold;
+  font-size: 80%;
+  color: #cc0000;
+  font-family: Arial, 'Microsoft Sans Serif', Verdana;
+}
+
+.mandatoryInformation {
+  color: Red;
+  font-size: 80%;
+}
+
+.LabelText {
+  font-size: 100%;
+  font-family: Arial, 'Microsoft Sans Serif', Verdana;
+}
+
+.TextboxText {
+  color: Black;
   font-size: 100%;
   font-family: Arial, 'Microsoft Sans Serif', Verdana;
 }
