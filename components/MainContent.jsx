@@ -1,5 +1,6 @@
 "use client";
-import Home from "@/app/AVATS/onlineHome.aspx/page";
+
+import Home from "@/app/AVATS/OnlineHome.aspx/page";
 import RetreiveApplication from "@/app/AVATS/retrieveApplication.aspx/page";
 import { usePathname } from "next/navigation";
 
