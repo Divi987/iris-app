@@ -1,4 +1,4 @@
-export default function visaStatus() {
+export default function TermCondition() {
     return(
         <>
             <div>

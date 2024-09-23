@@ -9,7 +9,7 @@ import { useRouter } from 'next/navigation'
 import { useEffect, useState } from "react";
 import { useRecoilValue, useSetRecoilState } from "recoil";
 
-export default function visaStatus() {
+export default function VisaStatus() {
   const [pdfLink, setPdfLink] = useState("");
   const setUsers = useSetRecoilState(userState);
   const userRecoilValue = useRecoilValue(userStateSelector);

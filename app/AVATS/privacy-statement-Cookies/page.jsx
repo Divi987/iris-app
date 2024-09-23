@@ -1,4 +1,4 @@
-export default function privacyStatement() {
+export default function PrivacyStatement() {
   return (
     <>
       <div width="428">
