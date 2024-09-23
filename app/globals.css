@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/*:root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -14,10 +14,11 @@
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
-}
+}*/
 
 body {
   color: rgb(var(--foreground-rgb));
+  font-family: Arial, 'Microsoft Sans Serif', Verdana;
   background: linear-gradient(
       to bottom,
       transparent,
@@ -30,4 +31,32 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.TreeLinksText {
+  font-size: 100%;
+  color: #215DA6;
+  font-family: Arial, Verdana, 'Microsoft Sans Serif';
+  background-color: transparent;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.TreeLinksText:hover {
+  text-decoration: underline;
+}
+
+.TreeLinkMainText {
+  font-size: 100%;
+  color: #215DA6;
+  font-family: Arial, Verdana, 'Microsoft Sans Serif';
+  background-color: transparent;
+  cursor: hand;
+  text-decoration: underline;
+}
+
+input, select {
+  padding: 1px 2px;
+  border: 1px solid #aaa;
+  border-radius: 2px;
 }
