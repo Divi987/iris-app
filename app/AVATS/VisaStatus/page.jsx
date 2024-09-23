@@ -56,7 +56,8 @@ export default function VisaStatus() {
         <div className="text-sm mt-5">
             <p>Visa Approved</p>
             <Link
-            name="ctl00$ctl00$innerContainer$mainContent$btnDownloadHistory"
+            // name="ctl00$ctl00$innerContainer$mainContent$btnDownloadHistory"
+            className="underline underline-offset-2 text-blue-500" 
             id="innerContainer_mainContent_btnDownloadHistory"
             tabIndex="9"
             target="_blank"

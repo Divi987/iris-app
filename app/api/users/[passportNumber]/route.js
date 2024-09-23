@@ -7,7 +7,7 @@ export async function GET(request, { params }){
         
         const { passportNumber }  = params;
   
-        const user = await prisma.User.findFirst({
+        const user = await prisma.user.findFirst({
             where: {
               passportNumber
             }
