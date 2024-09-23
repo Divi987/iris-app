@@ -8,6 +8,7 @@ import { setCookie } from 'cookies-next';
 import { userState } from '@/recoil/atoms/states';
 import { useState } from 'react';
 import { useRouter } from 'next/navigation' 
+import apiUrl from '@/lib/api/apiUrl';
 
 export default function ApplicationButton(){
     const pathName = usePathname();
@@ -25,6 +26,10 @@ export default function ApplicationButton(){
 
         console.log(transactionRecoNumberValue, passportRecoilValue, dobValues, nationalityValue);
 
+        console.log(apiUrl);
+
+        let itemFetch = await fetch(`${apiUrl}/${passportRecoilValue}`)
+        console.log(itemFetch)
         let fetchData = await fetchItemDetails(passportRecoilValue);
         console.log(fetchData);
         // setShouldFetch(true);
@@ -53,7 +58,6 @@ export default function ApplicationButton(){
 
     return(
         <>
-        {message}
         <div className={style.applicationButtonBar}>
             <div className="p-px">
                 <button onClick={handleSubmit} className={`${pathName !== '/AVATS/retrieveApplication.aspx' ? 'hidden' : `inline-block box-border  ${style.ApplicationButtons}`}`} >submit</button>
