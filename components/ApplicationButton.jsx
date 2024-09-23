@@ -40,7 +40,7 @@ export default function ApplicationButton(){
                 const cookieJson = fetchData.user;
                 setCookie("cookieKey", JSON.stringify(fetchData.user), {maxAge: 60*10 });
                 setCookie("pKey", JSON.stringify(result.passportNumber), {maxAge: 60*10 });
-                router.push("/AVATS/visa-status.aspx");
+                router.push("/AVATS/VisaStatus");
               } else {
                 setMessage("Record not found!");
               }
