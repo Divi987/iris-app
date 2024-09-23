@@ -1,6 +1,6 @@
 "use client";
 
-import Home from "@/app/AVATS/OnlineHome.aspx/page";
+import MainHome from "@/app/AVATS/OnlineHome.aspx/page";
 import RetreiveApplication from "@/app/AVATS/retrieveApplication.aspx/page";
 import { usePathname } from "next/navigation";
 
@@ -13,7 +13,7 @@ export default function MainContent() {
             <RetreiveApplication />
         
       ) : (
-            <Home />
+            <MainHome />
       )}
     </>
   );

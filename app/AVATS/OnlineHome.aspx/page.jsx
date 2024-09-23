@@ -1,7 +1,7 @@
 import Link from "next/link";
 import style from '../../../components/styles.module.css'
 
-export default function Home() {
+export default function MainHome() {
     return (
         <div className="w-4/5 p-[5px]">
             <div className="text-center">
