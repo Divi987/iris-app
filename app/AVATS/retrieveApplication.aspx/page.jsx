@@ -19,6 +19,7 @@ export default function RetreiveApplication() {
   const passportNumberControl = useRef();
   const nationalityControl = useRef();
   const dobControl = useRef();
+  const [shouldFetch, setShouldFetch] = useState(false);
 
   const [dob, setDobValue] = useState("")
 
